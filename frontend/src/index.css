@@ -1,0 +1,176 @@
+main {
+  min-height: 80vh;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900");
+
+body {
+  font-family: "Rubik", sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container .row {
+  padding-top: 30px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  outline: none !important;
+}
+
+.color-primary {
+  color: #0e8ce4 !important;
+}
+
+.form-inline {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.header-top-menu {
+  height: 50px;
+  padding: 13px 0;
+  margin: 0;
+}
+.header-top-menu li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.header-top div {
+  margin: auto;
+}
+
+.header-top a {
+  text-decoration: none;
+  padding: 0 5px;
+  color: #55595c !important;
+}
+.header-top p {
+  text-align: center;
+  padding: 0 5px;
+  margin: auto;
+}
+
+.header-top,
+.nav-search .row {
+  margin: 0 !important;
+}
+
+.logo,
+.nav-element,
+.search-box {
+  margin: auto !important;
+}
+
+.be-solid {
+  border-right: 1px solid #55595c;
+}
+
+.nav-search .logo h2 {
+  text-align: center;
+}
+
+.nav-search {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  margin: 2px 0;
+}
+
+.nav-element div {
+  display: inline-block;
+  text-align: center;
+}
+.nav-element > div {
+  width: 50%;
+  position: relative;
+}
+
+.nav-element .icons {
+  font-size: 45px;
+  padding-right: 10px;
+}
+
+.nav-element .shop-number {
+  position: absolute;
+  left: 56px;
+  bottom: 12px;
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 50%;
+  background: #0e8ce4 !important;
+  color: white;
+}
+
+.nav-element .shop-number span {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.nav-element .text-icon {
+  font-size: 14px;
+  margin: auto;
+  font-weight: 700;
+}
+
+#search-btn:hover {
+  color: #0e8ce4;
+
+  background-color: #fff;
+  border: 1px solid #0e8ce4;
+}
+
+#search-btn {
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  background-color: #0e8ce4;
+}
+
+.menu {
+  box-shadow: 0px 0px 5px 0px #ddd;
+  margin: 0;
+  padding: 15px 0 !important;
+}
+
+.menu a:hover,
+.menu .active,
+.show > #adminMenu,
+.show > #userName {
+  color: #0e8ce4 !important ;
+}

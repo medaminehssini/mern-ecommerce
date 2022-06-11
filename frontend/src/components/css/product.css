@@ -1,0 +1,46 @@
+.option_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.header_card_container:hover .option_container {
+  display: block;
+}
+
+.option_container .option_list ul {
+  margin: auto;
+  text-align: center;
+}
+
+.option_container .option_list {
+  margin-top: 50%;
+}
+
+.option_container .option_list ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  margin: 5px;
+  width: 40px;
+  border-radius: 3px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.option_container .option_list ul li i {
+  vertical-align: middle;
+}
+
+.option_container .option_list ul li:hover {
+  background-color: #0e8ce4;
+}
+.option_container .option_list ul li:hover a {
+  color: white;
+}
